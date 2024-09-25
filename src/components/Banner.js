@@ -6,7 +6,7 @@ import headerImg from '../assets/img/headerImg.svg'
 
 export const Banner=()=>{
     const [loopNum,setLoopNum]=useState(0);
-    const toRotate = ['Web Developer','ML Enthusiast','Tech Enthusiast']
+    const toRotate = ['Web Developer','Tech Enthusiast']
     const [isDeleting,setIsDeleting]=useState(false);
     const [txt,setTxt]=useState('');
     const [index, setIndex] = useState(1);
